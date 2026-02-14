@@ -1,0 +1,49 @@
+# .NET
+**/bin/
+**/obj/
+**/out/
+**/publish/
+*.user
+*.suo
+*.userprefs
+.vs/
+.vscode/
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+**/.idea/
+**/*.swp
+**/*.swo
+**/.DS_Store
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# NuGet
+packages/
+*.nupkg
+
+# Test results
+**/TestResults/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+
+# Temp files
+**/temp/
+**/tmp/
+*.tmp
+*.temp
+
+# Environment
+*.env
+appsettings.Development.json
+appsettings.Production.json
